@@ -1,0 +1,3 @@
+include ':elements'
+include ':app'
+rootProject.name = "EasyElements"
