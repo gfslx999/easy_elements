@@ -276,6 +276,11 @@ class MultiImagesPopupWindow(
         return false
     }
 
+    fun clearData() {
+        mImageUrlList.clear()
+        mAdapter?.notifyDataSetChanged()
+    }
+
     private fun Int?.isIndexSafe(list: List<Any?>?) : Boolean {
         if (list.isNullOrEmpty()) {
             return false
