@@ -43,5 +43,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation project(path: ':elements')
+//    implementation project(path: ':elements')
+    implementation 'com.github.gfslx999.easy_elements:sen:v.0.1'
 }
